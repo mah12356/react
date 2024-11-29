@@ -1,0 +1,26 @@
+.search{
+    height: 45px;
+    width: 250px;
+    outline: none;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.save{
+    height: 45px;
+    width: 80px;
+}
+::placeholder{font-family: 'bykan';}
+.skill{
+    position: relative;
+    height: 25px;
+    width: auto;
+}
+.cross{
+    position: absolute;
+    top: 0px;
+    right: 2px;
+    cursor: pointer;
+}
+.container-fluid .btn-success{
+    width: 150px;
+}

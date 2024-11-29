@@ -1,0 +1,165 @@
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.experience{width: 140px;}
+.experience input{
+  width: 50px;
+}
+.online-learn{
+  width: 200px;
+}
+.online-learn input{
+  width: 170px;
+}
+fieldset:not(.main-field){
+  height: 70px;
+  margin-left: 10px;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+.main-field{
+  border: 3px solid red;
+  width: 100%;
+}
+select{
+  border: 1px solid rgba(0, 0, 0, 0.454);
+  width: 90px;
+  overflow: visible;
+}
+legend{font-family: 'bykan-bold';}
+.city{width: 140px;}
+.city input{width: 120px;}
+.cities{
+  border: 2px solid gray;
+  background-color: rgb(255, 255, 255);
+}
+.cities p{
+  border-bottom:1px solid blue;
+}
+@media (max-width:767px){
+  .master-form,.main-field{height: 450px;}
+  .main-field .bg-primary{
+    margin-top: 40px;
+    width: 120px;
+  }
+}
+@media (min-width:768px){
+  .master-form,.main-field{height: 140px;}
+}
+.master-form button{
+  height: 57px;
+}
+  .main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .card_image {
+    position: relative;
+    max-height: 250px;
+  }
+  
+  .card_image img {
+    width: 270px;
+    height: 100%;
+  }
+  
+  
+  @media (min-width: 40rem) {
+    .cards_item {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 56rem) {
+    .cards_item {
+      width: 33.3333%;
+    }
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .card_content {
+    position: relative;
+    padding: 16px 0px 12px 10px;
+    margin: 16px 8px 8px 0;
+    max-height: 290px;
+    overflow-y: scroll;
+  }
+  .master-url a{
+    text-decoration: none;
+    color: rgb(0, 123, 255);
+  }
+  .card_content::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .card_content::-webkit-scrollbar-track {
+    box-shadow: 0;
+    border-radius: 0;
+  }
+  
+  .card_content::-webkit-scrollbar-thumb {
+    background: #c89b3f;
+    border-radius: 15px;
+  }
+
+  
+  hr {
+    margin: 24px auto;
+    width: 50px;
+    border-top: 2px solid #c89b3f;
+  }
+  
+  .card_text p {
+    margin: 0 0 24px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .card_text p:last-child {
+    margin: 0;
+  }
+  p,button,h2,select{font-family: 'bykan' !important;}
+  .more{
+    width: 200px;
+    height: 90px;
+    background-color: rgb(0, 110, 255);
+    text-decoration: none;
+  }
+  
+  .description{
+    position: absolute;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #c89a3f8a;
+  }
+  .description p{
+    width: 350px;
+  }
